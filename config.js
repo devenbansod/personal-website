@@ -1,36 +1,35 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Identity', // <title>
-  manifestName: 'Identity',
-  manifestShortName: 'Landing', // max 12 characters
+  siteTitle: 'Deven Bansod', // <title>
+  manifestName: 'Deven Bansod',
+  manifestShortName: 'Deven', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-identity/`, // This path is subpath of your hosting https://domain/portfolio
-  authorName: 'Anubhav Srivastava',
-  heading: 'Web Developer',
+  authorName: 'Deven Bansod',
+  heading: 'Full-stack web developer',
   // social
   socialLinks: [
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/devenbansod',
     },
     {
       icon: 'fa-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      url: 'https://twitter.com/devenbansod',
     },
     {
       icon: 'fa-facebook',
       name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      url: 'https://facebook.com/bansod',
     },
     {
       icon: 'fa-envelope-o',
       name: 'Email',
-      url: 'mailto:anubhav.srivastava00@gmail.com',
+      url: 'mailto:devenbansod94@gmail.com',
     },
   ],
 };
