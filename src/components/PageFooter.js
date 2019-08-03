@@ -8,7 +8,7 @@ export default function PageFooter() {
         <li>&copy; {config.authorName}</li>
         <li>
           Design: <a href="https://unsplash.com/">Unsplash</a> +{' '}
-          <a href="http://html5up.net">HTML5 UP</a>
+          <a href="https://html5up.net">HTML5 UP</a>
         </li>
       </ul>
     </footer>
