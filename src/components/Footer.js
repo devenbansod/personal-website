@@ -6,10 +6,10 @@ export default function Footer() {
     <footer>
       <ul className="icons">
         {config.socialLinks.map(social => {
-          const { icon, name, url } = social;
+          const { icon, name, url, desc } = social;
           return (
             <li key={url}>
-              <a href={url} className={`icon ${icon}`}>
+              <a href={url} aria-label={desc} className={`icon ${icon}`}>
                 <span className="label">{name}</span>
               </a>
             </li>
